@@ -1,6 +1,6 @@
 # SSMNet
 
-This repo is the implementation of “cale Sensitivity Mamba Network for Object Detection in Remote Sensing Images”
+This repo is the implementation of “Scale Sensitivity Mamba Network for Object Detection in Remote Sensing Images”
 
 
 ## Install
