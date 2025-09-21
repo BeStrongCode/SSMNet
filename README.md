@@ -15,7 +15,7 @@ pip install ultraltics
 
 ## Test
 ```
-python  test.py
+python test.py
 ```
 
 ## Train
