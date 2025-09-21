@@ -1,0 +1,38 @@
+# Path: ../datasets/DIOR_data/DIOR_dataset/data.yaml
+# path
+# ├── Yolo_v5
+# └── datasets
+#     └── DIOR_data
+#         └── DIOR_dataset
+#             ├── test
+#             ├── train
+#             ├── val
+#             └── data.yaml   ← There
+
+train: /home/rqy/datasets/DIOR_dataset/train/images  # train images (relative to 'path') 128 images
+val: /home/rqy/datasets/DIOR_dataset/val/images  # val images (relative to 'path') 128 images
+test: /home/rqy/datasets/DIOR_dataset/test/images  # test images (optional)
+#test: /home/rqy/datasets/NWPU-10/test/images  # test images (optional)
+nc: 20
+# Classes
+names:
+        0: airplane
+        1: airport
+        2: baseball field
+        3: basketball court
+        4: bridge
+        5: chimney
+        6: dam
+        7: expressway service area
+        8: expressway toll station
+        9: golf course
+        10: ground track field
+        11: harbor
+        12: overpass
+        13: ship
+        14: stadium
+        15: storage tank
+        16: tennis court
+        17: train station
+        18: vehicle
+        19: wind mill

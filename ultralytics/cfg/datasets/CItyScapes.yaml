@@ -1,0 +1,10 @@
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+train: /home/lenovo/Download/datasets/CityScape/leftImg8bit_trainvaltest/leftImg8bit/yolo/train # train images (relative to 'path')  6471 images
+val: /home/lenovo/Download/datasets/CityScape/leftImg8bit_trainvaltest/leftImg8bit/yolo/train # val images (relative to 'path')  548 images
+#test: /home/lenovo/Download/datasets/CityScape/leftImg8bit_trainvaltest/leftImg8bit/yolo/val # test images (optional)  1610 images
+#test: /home/lenovo/Download/datasets/CityScape/leftImg8bit_trainvaltest_foggy/leftImg8bit_foggy/yolo/val_0.02 # test images (optional)  1610 images
+
+# Classes
+names: ['person','rider','car','truck','bus','train','mcycle','bicycle']
+nc: 8

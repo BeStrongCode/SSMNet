@@ -1,0 +1,10 @@
+train: /home/rqy/USOD/train/images # train images (relative to 'path') 128 images
+
+val: /home/rqy/USOD/val/images
+
+
+test: /home/rqy/USOD/val/images # test images (optional)
+
+# Classes
+nc: 1  # number of classes
+names: ['vehicle']  # class names
