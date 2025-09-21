@@ -20,5 +20,5 @@ python  test.py
 
 ## Train
 ```
-Comming soon
+python train.py
 ```
